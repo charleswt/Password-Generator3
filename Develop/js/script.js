@@ -22,7 +22,7 @@ function generatePassword() {
     const password = generateRandomPassword(length, includeLowercase, includeUppercase, includeNumeric, includeSpecial);
 
     // Display the password on the page
-    document.getElementById("password-container").innerText = `${password}`;
+    document.getElementById("password").innerText = `${password}`;
 }
 
 function generateRandomPassword(length, includeLowercase, includeUppercase, includeNumeric, includeSpecial) {
